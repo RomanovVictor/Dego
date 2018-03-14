@@ -78,16 +78,15 @@ body {
     
 
 header {
-    padding-top: 20px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 90px;
 }
 
 .left-header {     
-    padding-top: 30px;
     display: inline-block;
-    position: absolute;    /***добавил position***/
-    top: 50px;
-    bottom: 0;
-    left: 100px;
+    padding-top: 30px;
 }
 
 li {
@@ -115,10 +114,6 @@ a.active {
     text-transform: uppercase;
     line-height: 1.4;
     padding-top: 30px;
-    position: absolute;     /***добавил position***/
-    top: 50px;
-    bottom: 0;
-    right: 100px;
 }
 
 .btn {
@@ -150,25 +145,21 @@ a:hover {
 .logo {
     position: absolute;
     width: 330px;
-    left: 0;
-    right: 0;
-    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     height: 70px;
-    top: 0;
-    bottom: 0;
+    
 }
 
 .logo_letter {
     position: absolute;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 18px;
-    top: 110px;
+    top: 100px;
     bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
