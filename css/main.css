@@ -246,7 +246,22 @@ h2 {
     font-size: 34px;
     line-height: 1;
     color: #fff;
+    z-index: 10;
 }
+
+.slides_down {
+    position: relative;
+}
+
+.slide_down {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 
 .btn_down {
     position: absolute;
