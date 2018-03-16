@@ -1,12 +1,10 @@
 $(function(){
   $('.j-firstSlider').slick({
-      arrows:true
+      arrows:false
   });
-});
 
-$(function(){
   $('.j-secondSlider').slick({
-      arrows:true
+    
   });
 });
 
